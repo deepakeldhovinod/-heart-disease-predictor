@@ -10,9 +10,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Load model, scaler, and features
-model = load_model("C:/Users/Admin/heart_disease_bestmodel.keras")
-scaler = load("C:/Users/Admin/scaler.joblib")
-features = load("C:/Users/Admin/features.joblib")
+model = load_model("heart_disease_bestmodel.keras")
+scaler = load("scaler.joblib")
+features = load("features.joblib")
 
 # Page config and styling
 st.set_page_config(page_title="Heart Health Check", page_icon="💓", layout="centered")
