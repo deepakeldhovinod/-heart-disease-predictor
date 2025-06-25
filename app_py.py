@@ -51,7 +51,7 @@ This app predicts the **risk of heart disease** using health data.
 
 st.markdown('<h1 style="color:lightblue;">💓 Heart Disease Prediction App</h1>', unsafe_allow_html=True)
 
-st.markdown('<h1 style="color:lightblue;">### Please enter your health information below:</h1>',unsafe_allow_html=True)
+st.markdown('<h4 style="color:lightblue;">Please enter your health information below:</h4>',unsafe_allow_html=True)
 
 # Desired and binary/categorical features
 desired_features = [
