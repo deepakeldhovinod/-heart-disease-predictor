@@ -40,7 +40,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/2966/2966489.png", width=80)
-st.sidebar.title(":hospital: About")
+st.sidebar.markdown('<h1 style="color:lightblue;">🏥 About</h1>', unsafe_allow_html=True)
 st.sidebar.info("""
 This app predicts the **risk of heart disease** using health data.
 
@@ -49,8 +49,9 @@ This app predicts the **risk of heart disease** using health data.
 :chart_with_upwards_trend: Gives a probability and prediction
 """)
 
-st.title(":heartbeat: Heart Disease Prediction App")
-st.markdown("### Please enter your health information below:")
+st.markdown('<h1 style="color:lightblue;">💓 Heart Disease Prediction App</h1>', unsafe_allow_html=True)
+
+st.markdown('<h1 style="color:lightblue;">### Please enter your health information below:</h1>',unsafe_allow_html=True)
 
 # Desired and binary/categorical features
 desired_features = [
